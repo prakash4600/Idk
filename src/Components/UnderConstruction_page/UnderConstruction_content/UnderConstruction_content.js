@@ -1,8 +1,6 @@
 import React from 'react'
-import construct from './construct.svg'
 import './UnderConstruction_content.css'
 import hammer from './hammer-board.svg'
-import ham from './hammer.png'
 
 function UnderConstruction_content() {
   return (

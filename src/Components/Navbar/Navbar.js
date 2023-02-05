@@ -20,9 +20,9 @@ function Navbar() {
         <Link class="idk" to="/work"><div class="nav_buttons">work</div></Link>
         <Link class="idk" to="/blogs"><div class="nav_buttons">Blogs</div></Link>
         <Link class="idk" to="/contact"><div class="nav_buttons">contact</div></Link>
-        <div class="nav_buttons"><a class="Link" target="_blank"  href="https://www.linkedin.com/in/ruthvik-k-s-720a52232/"><img class="social linkedin" src={linked}></img></a></div>
-        <div class="nav_buttons"><a class="Link" target="_blank" href="https://github.com/Ruthvik2707"><img class=" social git_icon" src={git}></img></a></div>
-        <div class="nav_buttons"><a class="Link" target="_blank" href="https://instagram.com/sunny.ruthvik?igshid=Mzc0YWU1OWY="><img class=" social insta_icon"src={insta}></img></a></div>
+        <div class="nav_buttons"><a class="Link" target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/ruthvik-k-s-720a52232/"><img class="social linkedin" alt='1e'src={linked}></img></a></div>
+        <div class="nav_buttons"><a class="Link" target="_blank" rel='noreferrer' href="https://github.com/Ruthvik2707"><img class=" social git_icon" alt='2e' src={git}></img></a></div>
+        <div class="nav_buttons"><a class="Link" target="_blank" rel='noreferrer' href="https://instagram.com/sunny.ruthvik?igshid=Mzc0YWU1OWY="><img class=" social insta_icon" alt='3e' src={insta}></img></a></div>
       </div>
     </div>
   )
